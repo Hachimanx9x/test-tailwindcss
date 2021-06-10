@@ -1,0 +1,11 @@
+/*tipografia lato y Sansita*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&family=Sansita:ital,wght@0,400;1,700;1,800&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.o-blog-card {
+  @apply border border-gray-100 rounded-2xl  overflow-hidden   transition duration-200 hover:shadow-lg hover:border-transparent;
+}
+.o-blog-title {
+  @apply font-bold text-pri text-xl md:text-2xl font-title py-3 transition duration-200  hover:text-sec;
+}
